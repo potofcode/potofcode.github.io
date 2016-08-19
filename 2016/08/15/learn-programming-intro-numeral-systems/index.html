@@ -1,0 +1,231 @@
+<!DOCTYPE html><html lang="ru"><head><meta charset="utf-8"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Pot Of Code</title><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="author" content="Ivan Zaharchenko"><meta name="description" content="Введение в программирование. Что такое система счисления, перевод между системами и понятие бита и байта"><meta name="keywords" content="программирование,системы счисления,биты,байты,программирование,программирование"><meta property="og:type" content="article"><meta property="og:title" content="Pot Of Code: Введение в программирование. Система счисления, биты и байты"><meta property="og:url" content="https://potofcode.com/2016/08/15/learn-programming-intro-numeral-systems/"><meta property="og:site_name" content="Pot Of Code"><meta property="og:description" content="Введение в программирование. Что такое система счисления, перевод между системами и понятие бита и байта"><meta property="og:image" content="https://potofcode.com/2016/08/15/learn-programming-intro-numeral-systems/coding.png"><meta property="og:image:width" content="256"><meta property="og:updated_time" content="2016-08-17T03:24:36.917Z"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="Pot Of Code: Введение в программирование. Система счисления, биты и байты"><meta property="twitter:description" content="Введение в программирование. Что такое система счисления, перевод между системами и понятие бита и байта"><meta property="twitter:image" content="https://potofcode.com/2016/08/15/learn-programming-intro-numeral-systems/coding.png"><meta property="twitter:creator" content="@potofcode"><meta property="twitter:site" content="@potofcode"><link rel="publisher" href="3axap4eHko"><meta property="fb:admins" content="1336988095"><meta property="fb:app_id" content="778520525558698"><meta property="vk:title" content="Pot Of Code: Введение в программирование. Система счисления, биты и байты"><meta property="vk:url" content="https://potofcode.com/2016/08/15/learn-programming-intro-numeral-systems/"><meta property="vk:image" content="https://potofcode.com/2016/08/15/learn-programming-intro-numeral-systems/coding.png"><meta property="vk:description" content="Введение в программирование. Что такое система счисления, перевод между системами и понятие бита и байта"><meta name="google-site-verification" content="HTUTU2276aWkgL6NZ5yLui5u6EvpZyzx36SifjWFPQc"><link href="/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet"><link href="/vendor/bootstrap/css/bootstrap.yeti.min.css" rel="stylesheet"><link href="/css/style.css" rel="stylesheet"></head><body><nav class="navbar navbar-default navbar-fixed-top shadow-4dp"><div class="container"><div class="navbar-header"><button type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" class="navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="/" class="navbar-brand"><h1>Pot Of Code</h1></a></div><div id="navbar" class="collapse navbar-collapse"><ul class="nav navbar-nav"><li><a href="/categories/статьи/">Статьи</a></li><li><a href="/categories/уроки/">Уроки</a></li><li><a href="/categories/игры/">Игры</a></li><li><a href="/categories/путешествия/">Путешествия</a></li><li><a href="/about">Обо мне</a></li></ul></div></div></nav><main class="row"><div class="container"><div class="col-lg-8 col-md-8 col-sm-12"><div class="shadow-4dp content"><img src="https://potofcode.com/2016/08/15/learn-programming-intro-numeral-systems/coding.png" alt="Введение в программирование. Система счисления, биты и байты" title="Введение в программирование. Система счисления, биты и байты" class="post-image"/><h2 class="post-title">Введение в программирование. Система счисления, биты и байты</h2><div class="post-header"><span><i class="fa fa-calendar"></i><a href="/2016/08/15/learn-programming-intro-numeral-systems/"><time datetime="2016-08-16T03:13:34.000Z">2016-08-15</time></a></span><span><i class="fa fa-folder"></i><span><a class="article-category-link" href="/categories/уроки/">Уроки</a></span></span></div><div class="post-content"><p>Ave $USER!</p>
+<blockquote>
+<p>Существуют 10 типов людей - те кто понимает двоичную систему счисления и те кто не понимает</p>
+</blockquote>
+<p>В этой статье я доступно опишу с примерами, что такое системы счисления, какие они бывают, перевод чисел между ними, а затем рассмотрим понятия бита и байта.
+<a id="more"></a></p>
+<p> Цифры - это система символов для представления чисел, в виде их последовательности. Например используя символы 0 и 1 можно записать числа: 10, 100, 11, 101 и т.д.</p>
+<p> В повседневной жизни мы используем десять цифр: 0,1,2,3,4,5,6,7,8,9. Совокупность цифр представляет собой систему счисления, которую называют в соответствии с количеством цифр
+ в этой системе. В данном случае мы используем <strong>десятичную</strong> систему счисления, т.к. у нас всего 10 цифр.</p>
+<p> Так как цифра это символ, то вполне можно представить себе систему в виде букв, например: A,B,C,D,E. Это будет <strong>пятиричная</strong> система счисления, т.к. в ней всего пять символов.
+ Или к примеру, если мы добавим к десятичной системе еще 6 знаков, например буквы латинского алфавита: A,B,C,D,E,F то получим, всем известную, шестнадцатеричную систему счисления.
+ А сократив количество цифр до восьми - восьмеричную, а до двух - двоичную.</p>
+<p> Что бы понять как в них считать, давайте вспомним обычные часы со стрелками. Секундная и минутная стрелки, принимают значения от 0 до 59. Каждый круг секундной стрелки сдвигает
+ минутную на одно деление вперед. А теперь представьте, что секунд не 60, а всего лишь 10, т.е. полный круг совершается за 10 секунд.
+ <a href="https://potofcode.com/2016/08/15/learn-programming-intro-numeral-systems/10-clock.png" target="_blank"><img src="https://potofcode.com/2016/08/15/learn-programming-intro-numeral-systems/10-clock.png" alt="10-clock.png" title=""></a>
+ Очевидно, что это напоминает обычный счет:</p>
+<ul>
+<li>0:0 = 0</li>
+<li>0:1 = 1</li>
+<li>0:2 = 2</li>
+<li>0:3 = 3</li>
+<li>0:4 = 4</li>
+<li>0:5 = 5</li>
+<li>0:6 = 6</li>
+<li>0:7 = 7</li>
+<li>0:8 = 8</li>
+<li>0:9 = 9</li>
+<li>1:0 = 10</li>
+<li>1:1 = 11</li>
+</ul>
+<p> Также очевидно, чтобы считать сотни, нам понадобится еще одна стрелка, которая будет увеличиваться за один круг минутной. Такие часы вполне могут существовать, например на Сатурне,
+ период вращения, которого, вокруг своей оси составляет 10.35 часа, другими словами, это сутки на Сатурне. А вот так выглядят часы Нептуна, там сутки 16.11 часа:
+ <a href="https://potofcode.com/2016/08/15/learn-programming-intro-numeral-systems/16-clock.png" target="_blank"><img src="https://potofcode.com/2016/08/15/learn-programming-intro-numeral-systems/16-clock.png" alt="16-clock.png" title=""></a></p>
+<p> Сейчас они показывают 1 час F минут, что в десятичном виде будет 1:15, а так как в этих часах 1 час равен 16 минутам, то получаем <code>1 x 16 + 15 = 31</code>. Вот так вот незаметно, мы сейчас
+ перевели число из шестнадцатиричной системы в десятичную. Для более простого перевода, можно воспользоваться следующей таблицей:</p>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <td>Множитель</td>
+            <td>65 536</td>
+            <td>4 096</td>
+            <td>256</td>
+            <td>16</td>
+            <td>1</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Множитель</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td>Результат</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>16</td>
+            <td>15</td>
+        </tr>
+    </tbody>
+</table>
+
+<p>Просто записываем числа в десятичном виде во вторую строку, затем перемножаем колонки и записываем резуьтат в третью строку, которую нужно просуммировать и получить число в десятичной системе счисления.</p>
+<p>Возможно вы заметели, что первая строка таблицы, это степени основания системы счисления записанные справа налево по убыванию.</p>
+<ul>
+<li>16<sup>5</sup> = 65 536</li>
+<li>16<sup>3</sup> = 4 096</li>
+<li>16<sup>2</sup> = 256</li>
+<li>16<sup>1</sup> = 16</li>
+<li>16<sup>0</sup> = 1</li>
+</ul>
+<p>Таким образом можно составить таблицу для любой системы счисления, заполнив первую строку степенями основания.</p>
+<p> А как же быть с двоичной системой? К сожалению, двоичными часами пользоваться не очень удобно:
+ <a href="https://potofcode.com/2016/08/15/learn-programming-intro-numeral-systems/2-clock.png" target="_blank"><img src="https://potofcode.com/2016/08/15/learn-programming-intro-numeral-systems/2-clock.png" alt="2-clock.png" title=""></a></p>
+<p>Но таблица здесь работает также хорошо:</p>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <td>Множитель</td>
+            <td>2<sup>7</sup> = 128</td>
+            <td>2<sup>6</sup> = 64</td>
+            <td>2<sup>5</sup> = 32</td>
+            <td>2<sup>4</sup> = 16</td>
+            <td>2<sup>3</sup> = 8</td>
+            <td>2<sup>2</sup> = 4</td>
+            <td>2<sup>1</sup> = 2</td>
+            <td>2<sup>0</sup> = 1</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Множитель</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>Результат</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>2</td>
+            <td>0</td>
+        </tr>
+    </tbody>
+</table>
+
+<p>Эта таблица переводит восьмисимвольное двоичное число в десятичное, такое восьмисимвольное число, еще называют октет или байт, а символы этого числа - битами, которые могут
+ принимать значения лишь 0 и 1. Как легко заметить максимально возможное значение одного байта 255:
+ <table class="table table-bordered">
+     <thead>
+         <tr>
+             <td>Множитель</td>
+             <td>2<sup>7</sup> = 128</td>
+             <td>2<sup>6</sup> = 64</td>
+             <td>2<sup>5</sup> = 32</td>
+             <td>2<sup>4</sup> = 16</td>
+             <td>2<sup>3</sup> = 8</td>
+             <td>2<sup>2</sup> = 4</td>
+             <td>2<sup>1</sup> = 2</td>
+             <td>2<sup>0</sup> = 1</td>
+         </tr>
+     </thead>
+     <tbody>
+         <tr>
+             <td>Множитель</td>
+             <td>1</td>
+             <td>1</td>
+             <td>1</td>
+             <td>1</td>
+             <td>1</td>
+             <td>1</td>
+             <td>1</td>
+             <td>1</td>
+         </tr>
+         <tr>
+             <td>Результат</td>
+             <td>128</td>
+             <td>64</td>
+             <td>32</td>
+             <td>16</td>
+             <td>8</td>
+             <td>4</td>
+             <td>2</td>
+             <td>1</td>
+         </tr>
+     </tbody>
+ </table>
+ Откуда получаем <code>128 + 64 + 32 + 16 + 8 + 4 + 2 + 1 = 255</code>, что умещается ровно в две первые колнки шестнадцатиричной таблицы в виде числа FF, т.е. 15 15:</p>
+<p><table class="table table-bordered">
+ <thead>
+     <tr>
+         <td>Множитель</td>
+         <td>16</td>
+         <td>1</td>
+     </tr>
+ </thead>
+ <tbody>
+     <tr>
+         <td>Множитель</td>
+         <td>15</td>
+         <td>15</td>
+     </tr>
+     <tr>
+         <td>Результат</td>
+         <td>240</td>
+         <td>15</td>
+     </tr>
+ </tbody>
+</table>
+ Суммируя результат, которой, получаем <code>240 + 15 = 255</code>. Откуда очевидно следующие равенство, что  <code>FF = 11111111 = 255</code>. Для того, что бы не путаться между системами счисления,
+ например число <code>11111111</code> вполне похоже на 11 миллионов, перед числом ставят специальный префикс:</p>
+<ul>
+<li><code>0x</code> - для шестнадцатиричных ( hex )</li>
+<li><code>0o</code> - для восьмиричных ( o - octet )</li>
+<li><code>0b</code> - для двоичных ( b - binary )</li>
+</ul>
+<p>Согласно этому правилу, наши числа примут вид <code>0xFF</code> и <code>0b11111111</code>.</p>
+</div><div class="post-tags"><i class="fa fa-tag"></i><span><a class="tag-link" href="/tags/программирование/">программирование</a></span></div><div class="post-footer"><div class="row"><ul class="post-share col-lg-6 col-md-6 col-sm-6 col-xs-12"><li><a href="https://www.facebook.com/sharer/sharer.php?app_id=778520525558698&amp;u=https%3A%2F%2Fpotofcode.com%2F2016%2F08%2F15%2Flearn-programming-intro-numeral-systems%2F&amp;t=%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B2%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5.%20%D0%A1%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0%20%D1%81%D1%87%D0%B8%D1%81%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%2C%20%D0%B1%D0%B8%D1%82%D1%8B%20%D0%B8%20%D0%B1%D0%B0%D0%B9%D1%82%D1%8B&amp;display=popup&amp;ref=plugin&amp;src=potofcode" target="_share_fb" class="btn socicon socicon-facebook">b</a></li><li><a href="http://vk.com/share.php?url=https%3A%2F%2Fpotofcode.com%2F2016%2F08%2F15%2Flearn-programming-intro-numeral-systems%2F&amp;title=%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B2%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5.%20%D0%A1%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0%20%D1%81%D1%87%D0%B8%D1%81%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%2C%20%D0%B1%D0%B8%D1%82%D1%8B%20%D0%B8%20%D0%B1%D0%B0%D0%B9%D1%82%D1%8B&amp;description=%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B2%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5.%20%D0%A7%D1%82%D0%BE%20%D1%82%D0%B0%D0%BA%D0%BE%D0%B5%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0%20%D1%81%D1%87%D0%B8%D1%81%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%2C%20%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B4%20%D0%BC%D0%B5%D0%B6%D0%B4%D1%83%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0%D0%BC%D0%B8%20%D0%B8%20%D0%BF%D0%BE%D0%BD%D1%8F%D1%82%D0%B8%D0%B5%20%D0%B1%D0%B8%D1%82%D0%B0%20%D0%B8%20%D0%B1%D0%B0%D0%B9%D1%82%D0%B0&amp;image=https://potofcode.com/2016/08/15/learn-programming-intro-numeral-systems/coding.png" target="_share_vk" class="btn socicon socicon-vkontakte">;</a></li><li><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fpotofcode.com%2F2016%2F08%2F15%2Flearn-programming-intro-numeral-systems%2F&amp;title=%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B2%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5.%20%D0%A1%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0%20%D1%81%D1%87%D0%B8%D1%81%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%2C%20%D0%B1%D0%B8%D1%82%D1%8B%20%D0%B8%20%D0%B1%D0%B0%D0%B9%D1%82%D1%8B&amp;summary=%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B2%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5.%20%D0%A7%D1%82%D0%BE%20%D1%82%D0%B0%D0%BA%D0%BE%D0%B5%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0%20%D1%81%D1%87%D0%B8%D1%81%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%2C%20%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B4%20%D0%BC%D0%B5%D0%B6%D0%B4%D1%83%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0%D0%BC%D0%B8%20%D0%B8%20%D0%BF%D0%BE%D0%BD%D1%8F%D1%82%D0%B8%D0%B5%20%D0%B1%D0%B8%D1%82%D0%B0%20%D0%B8%20%D0%B1%D0%B0%D0%B9%D1%82%D0%B0&amp;source=https://potofcode.com" target="_share_ln" class="btn socicon socicon-linkedin">j</a></li><li><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fpotofcode.com%2F2016%2F08%2F15%2Flearn-programming-intro-numeral-systems%2F&amp;text=%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B2%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5.%20%D0%A1%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0%20%D1%81%D1%87%D0%B8%D1%81%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%2C%20%D0%B1%D0%B8%D1%82%D1%8B%20%D0%B8%20%D0%B1%D0%B0%D0%B9%D1%82%D1%8B&amp;via=potofcode&amp;hashtags=potofcode" target="_share_tw" class="btn socicon socicon-twitter">a</a></li><li><a href="https://plus.google.com/share?url=https%3A%2F%2Fpotofcode.com%2F2016%2F08%2F15%2Flearn-programming-intro-numeral-systems%2F" target="_share_go" class="btn socicon socicon-google">c</a></li></ul></div></div><div id="disqus_thread"></div></div></div><div class="col-lg-3 col-md-12 col-sm-12 row"><aside class="shadow-4dp content sidebar col-lg-12 col-md-5 col-sm-5 panel panel-primary"><div class="sidebar-title panel-heading">недавние</div><ul class="panel-body no-style"><li><a href="/2016/08/19/javascript-react-snippets/" class="recent-post-title">JavaScript. React Snippets компоненты If, EventListener, Composer, Sequencer</a></li><li><a href="/2016/08/15/learn-programming-intro-numeral-systems/" class="recent-post-title">Введение в программирование. Система счисления, биты и байты</a></li><li><a href="/2016/04/08/article-node-simple-mvc-app/" class="recent-post-title">NodeJS. Простое современное MVC приложение на NodeJS</a></li><li><a href="/2016/03/14/learn-node-chakracore/" class="recent-post-title">NodeJS. Собираем NodeJS с движком Chakra от Microsoft</a></li><li><a href="/2016/03/13/learn-node-getting-started/" class="recent-post-title">NodeJS. Введение</a></li><li><a href="/2016/03/13/games-build-rust-server/" class="recent-post-title">Настраиваем свой Rust сервер</a></li><li><a href="/2016/03/12/article-build-environment-p1/" class="recent-post-title">Настройка среды разработки. Часть 1</a></li></ul></aside><div class="col-md-2 col-sm-2 visible-md-block visible-sm-block"></div><aside class="content sidebar col-lg-12 col-md-5 col-sm-5"><div class="panel-body"><ins style="display:inline-block;width:120px;height:240px" data-ad-client="ca-pub-3437520002188474" data-ad-slot="8522251540" class="adsbygoogle"></ins><script>(window.adsbygoogle = window.adsbygoogle || []).push({});</script></div></aside><aside class="shadow-4dp content sidebar col-lg-12 col-md-5 col-sm-5 panel panel-primary"><div class="sidebar-title panel-heading">тэги</div><ul class="panel-body no-style"><li><a href="/tags/chakracore/">[1] chakracore</a></li><li><a href="/tags/express/">[1] express</a></li><li><a href="/tags/javascript/">[4] javascript</a></li><li><a href="/tags/linux/">[1] linux</a></li><li><a href="/tags/mvc/">[1] mvc</a></li><li><a href="/tags/nodejs/">[3] nodejs</a></li><li><a href="/tags/react/">[1] react</a></li><li><a href="/tags/steam/">[1] steam</a></li><li><a href="/tags/windows/">[1] windows</a></li><li><a href="/tags/программирование/">[4] программирование</a></li><li><a href="/tags/среда-разработки/">[1] среда разработки</a></li></ul></aside><div class="col-md-2 col-sm-2 visible-md-block visible-sm-block"></div><aside class="shadow-4dp content sidebar col-lg-12 col-md-5 col-sm-5 panel panel-primary"><div class="sidebar-title panel-heading">категории</div><ul class="panel-body no-style"><li><a href="/categories/игры/">[1] Игры</a></li><li><a href="/categories/статьи/">[3] Статьи</a></li><li><a href="/categories/уроки/">[3] Уроки</a></li></ul></aside></div></div></main><footer class="footer"><div class="container"><div class="row"><img src="/images/logo-potofcode.svg" width="200" class="footer-column col-lg-3 col-md-6 col-sm-6 col-xs-12"><div class="footer-column col-lg-3 col-md-6 col-sm-6 col-xs-12">&nbsp;</div><div class="footer-column col-lg-3 col-md-6 col-sm-6 col-xs-12">&nbsp;</div><div class="footer-column col-lg-3 col-md-6 col-sm-6 col-xs-12">&nbsp;</div></div></div></footer><script src="/vendor/bootstrap/js/jquery.min.js"></script><script src="/vendor/bootstrap/js/bootstrap.min.js"></script><script>(function() {
+var d = document, s = d.createElement('script');
+s.src = '//potofcode.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script><script src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><script type="text/javascript">(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-60230177-1', 'auto');
+ga('send', 'pageview');</script><script type="text/javascript">(function (d, w, c) {
+  (w[c] = w[c] || []).push(function () {
+    try {
+      w.yaCounter28756646 = new Ya.Metrika({
+        id: 28756646,
+        clickmap: true,
+        trackLinks: true,
+        accurateTrackBounce: true,
+        webvisor: true,
+        trackHash: true
+      });
+    } catch (e) {
+    }
+  });
+
+  var n = d.getElementsByTagName("script")[0],
+          s = d.createElement("script"),
+          f = function () {
+            n.parentNode.insertBefore(s, n);
+          };
+  s.type = "text/javascript";
+  s.async = true;
+  s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+  if (w.opera == "[object Opera]") {
+    d.addEventListener("DOMContentLoaded", f, false);
+  } else {
+    f();
+  }
+})(document, window, "yandex_metrika_callbacks");</script></body></html>
