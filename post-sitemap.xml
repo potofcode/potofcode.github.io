@@ -15,22 +15,6 @@
     </url>
 
     <url>
-        <loc>https://potofcode.com/2016/08/19/hello-world-react-js-redux/</loc>
-        <lastmod>2016-08-20T02:46:42.437Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://potofcode.com/2016/08/19/hello-world-react-js/</loc>
-        <lastmod>2016-08-20T02:46:28.045Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://potofcode.com/2016/03/13/games-build-rust-server/</loc>
         <lastmod>2016-08-20T02:39:22.340Z</lastmod>
         <changefreq>weekly</changefreq>
