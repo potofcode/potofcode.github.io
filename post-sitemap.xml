@@ -1,21 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://potofcode.com</loc>
+        <loc>http://localhost:4000</loc>
         <changefreq>daily</changefreq>
         <priority>1</priority>
     </url>
 
     <url>
-        <loc>https://potofcode.com/2016/03/13/hello-world-node-js/</loc>
-        <lastmod>2016-08-20T16:43:24.732Z</lastmod>
+        <loc>http://localhost:4000/2016/03/13/hello-world-node-js/</loc>
+        <lastmod>2016-08-24T00:46:54.683Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>https://potofcode.com/2016/03/13/games-build-rust-server/</loc>
+        <loc>http://localhost:4000/2016/04/08/article-node-simple-mvc-app/</loc>
+        <lastmod>2016-08-24T00:46:54.658Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://localhost:4000/2016/03/14/learn-node-chakracore/</loc>
+        <lastmod>2016-08-24T00:46:00.002Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://localhost:4000/2016/08/21/hello-world-npm/</loc>
+        <lastmod>2016-08-24T00:43:12.037Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://localhost:4000/2016/08/19/javascript-react-snippets/</loc>
+        <lastmod>2016-08-21T20:57:12.659Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://localhost:4000/2016/03/12/article-build-environment-p1/</loc>
+        <lastmod>2016-08-21T20:56:02.060Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://localhost:4000/2016/03/13/games-build-rust-server/</loc>
         <lastmod>2016-08-20T02:39:22.340Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -23,40 +63,8 @@
     </url>
 
     <url>
-        <loc>https://potofcode.com/2016/08/19/javascript-react-snippets/</loc>
-        <lastmod>2016-08-20T02:04:12.921Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://potofcode.com/2016/08/15/learn-programming-intro-numeral-systems/</loc>
+        <loc>http://localhost:4000/2016/08/15/learn-programming-intro-numeral-systems/</loc>
         <lastmod>2016-08-17T03:24:36.917Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://potofcode.com/2016/03/14/learn-node-chakracore/</loc>
-        <lastmod>2016-08-17T01:40:39.691Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://potofcode.com/2016/03/12/article-build-environment-p1/</loc>
-        <lastmod>2016-08-17T01:39:26.547Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://potofcode.com/2016/04/08/article-node-simple-mvc-app/</loc>
-        <lastmod>2016-08-16T04:32:23.801Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
