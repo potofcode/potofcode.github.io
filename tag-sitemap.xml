@@ -66,21 +66,28 @@
 
     <url>
         <loc>https://potofcode.com/tags/javascript/</loc>
-        <lastmod>2016-08-24T00:46:54.683Z</lastmod>
+        <lastmod>2016-08-26T13:02:18.540Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://potofcode.com/tags/node-js/</loc>
-        <lastmod>2016-08-24T00:46:54.683Z</lastmod>
+        <lastmod>2016-08-26T13:02:18.540Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://potofcode.com/tags/hello-world/</loc>
-        <lastmod>2016-08-24T00:46:54.683Z</lastmod>
+        <lastmod>2016-08-26T13:02:18.540Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://potofcode.com/tags/npm/</loc>
+        <lastmod>2016-08-26T13:02:18.540Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

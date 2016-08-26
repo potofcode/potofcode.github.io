@@ -7,6 +7,14 @@
     </url>
 
     <url>
+        <loc>https://potofcode.com/2016/08/21/hello-world-npm/</loc>
+        <lastmod>2016-08-26T13:02:18.540Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://potofcode.com/2016/03/13/hello-world-node-js/</loc>
         <lastmod>2016-08-24T00:46:54.683Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -25,14 +33,6 @@
     <url>
         <loc>https://potofcode.com/2016/03/14/learn-node-chakracore/</loc>
         <lastmod>2016-08-24T00:46:00.002Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://potofcode.com/2016/08/21/hello-world-npm/</loc>
-        <lastmod>2016-08-24T00:43:12.037Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
