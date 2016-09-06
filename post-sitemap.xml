@@ -7,8 +7,32 @@
     </url>
 
     <url>
+        <loc>https://potofcode.com/2016/03/14/learn-node-chakracore/</loc>
+        <lastmod>2016-09-06T05:18:37.281Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://potofcode.com/2016/09/06/game-wow-legion-shaman-puzzles/</loc>
-        <lastmod>2016-09-06T04:52:27.500Z</lastmod>
+        <lastmod>2016-09-06T05:18:37.267Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://potofcode.com/2016/04/08/article-node-simple-mvc-app/</loc>
+        <lastmod>2016-09-06T05:18:37.253Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://potofcode.com/2016/08/19/javascript-react-snippets/</loc>
+        <lastmod>2016-09-06T05:18:37.225Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -33,30 +57,6 @@
     <url>
         <loc>https://potofcode.com/2016/03/13/hello-world-node-js/</loc>
         <lastmod>2016-08-24T00:46:54.683Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://potofcode.com/2016/04/08/article-node-simple-mvc-app/</loc>
-        <lastmod>2016-08-24T00:46:54.658Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://potofcode.com/2016/03/14/learn-node-chakracore/</loc>
-        <lastmod>2016-08-24T00:46:00.002Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://potofcode.com/2016/08/19/javascript-react-snippets/</loc>
-        <lastmod>2016-08-21T20:57:12.659Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
