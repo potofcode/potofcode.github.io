@@ -2,13 +2,6 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>https://potofcode.com/tags/steam/</loc>
-        <lastmod>2016-08-20T02:39:22.340Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://potofcode.com/tags/windows/</loc>
         <lastmod>2016-08-21T20:56:02.060Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -88,6 +81,41 @@
     <url>
         <loc>https://potofcode.com/tags/npm/</loc>
         <lastmod>2016-08-26T13:02:18.540Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://potofcode.com/tags/steam/</loc>
+        <lastmod>2016-09-02T03:55:42.427Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://potofcode.com/tags/rust/</loc>
+        <lastmod>2016-09-02T03:55:42.427Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://potofcode.com/tags/games/</loc>
+        <lastmod>2016-09-06T02:17:40.429Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://potofcode.com/tags/wow/</loc>
+        <lastmod>2016-09-06T02:17:40.429Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://potofcode.com/tags/ga/</loc>
+        <lastmod>2016-09-06T02:17:40.429Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

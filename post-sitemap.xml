@@ -7,6 +7,22 @@
     </url>
 
     <url>
+        <loc>https://potofcode.com/2016/09/06/game-wow-legion-shaman-puzzles/</loc>
+        <lastmod>2016-09-06T02:17:40.429Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://potofcode.com/2016/03/13/games-build-rust-server/</loc>
+        <lastmod>2016-09-02T03:55:42.427Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://potofcode.com/2016/08/21/hello-world-npm/</loc>
         <lastmod>2016-08-26T13:02:18.540Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -49,14 +65,6 @@
     <url>
         <loc>https://potofcode.com/2016/03/12/article-build-environment-p1/</loc>
         <lastmod>2016-08-21T20:56:02.060Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://potofcode.com/2016/03/13/games-build-rust-server/</loc>
-        <lastmod>2016-08-20T02:39:22.340Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
