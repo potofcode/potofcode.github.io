@@ -23,13 +23,6 @@
     </url>
 
     <url>
-        <loc>https://potofcode.com/tags/hello-world/</loc>
-        <lastmod>2016-08-26T13:02:18.540Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://potofcode.com/tags/npm/</loc>
         <lastmod>2016-08-26T13:02:18.540Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -100,22 +93,36 @@
     </url>
 
     <url>
-        <loc>https://potofcode.com/tags/javascript/</loc>
+        <loc>https://potofcode.com/tags/chakracore/</loc>
         <lastmod>2016-09-06T05:18:37.281Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://potofcode.com/tags/javascript/</loc>
+        <lastmod>2016-09-12T01:28:07.401Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://potofcode.com/tags/node-js/</loc>
-        <lastmod>2016-09-06T05:18:37.281Z</lastmod>
+        <lastmod>2016-09-12T01:28:07.401Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://potofcode.com/tags/chakracore/</loc>
-        <lastmod>2016-09-06T05:18:37.281Z</lastmod>
+        <loc>https://potofcode.com/tags/hello-world/</loc>
+        <lastmod>2016-09-12T01:28:07.401Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://potofcode.com/tags/gulp/</loc>
+        <lastmod>2016-09-12T01:28:07.401Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

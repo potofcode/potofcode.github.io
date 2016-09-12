@@ -7,6 +7,14 @@
     </url>
 
     <url>
+        <loc>https://potofcode.com/2016/09/11/hello-world-gulp/</loc>
+        <lastmod>2016-09-12T01:28:07.401Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://potofcode.com/2016/03/14/learn-node-chakracore/</loc>
         <lastmod>2016-09-06T05:18:37.281Z</lastmod>
         <changefreq>weekly</changefreq>
