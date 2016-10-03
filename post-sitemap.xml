@@ -7,6 +7,14 @@
     </url>
 
     <url>
+        <loc>https://potofcode.com/2016/04/08/article-node-simple-mvc-app/</loc>
+        <lastmod>2016-10-03T22:27:47.004Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://potofcode.com/2016/09/25/hello-world-github-pages/</loc>
         <lastmod>2016-09-26T02:14:57.208Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -33,14 +41,6 @@
     <url>
         <loc>https://potofcode.com/2016/09/06/game-wow-legion-shaman-puzzles/</loc>
         <lastmod>2016-09-06T05:18:37.267Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://potofcode.com/2016/04/08/article-node-simple-mvc-app/</loc>
-        <lastmod>2016-09-06T05:18:37.253Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
