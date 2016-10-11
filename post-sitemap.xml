@@ -7,6 +7,14 @@
     </url>
 
     <url>
+        <loc>https://potofcode.com/2016/10/10/article-free-static-blog-with-hexo/</loc>
+        <lastmod>2016-10-11T01:23:45.415Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://potofcode.com/2016/04/08/article-node-simple-mvc-app/</loc>
         <lastmod>2016-10-03T22:27:47.004Z</lastmod>
         <changefreq>weekly</changefreq>
