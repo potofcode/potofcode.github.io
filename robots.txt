@@ -1,3 +1,0 @@
-User-agent: *
-Host: https://potofcode.com
-Sitemap: https://potofcode.com/sitemap.xml
