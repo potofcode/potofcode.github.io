@@ -7,6 +7,30 @@
     </url>
 
     <url>
+        <loc>https://potofcode.com/2016/08/21/hello-world-npm/</loc>
+        <lastmod>2016-11-04T23:55:21.162Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://potofcode.com/2016/03/13/hello-world-node-js/</loc>
+        <lastmod>2016-11-04T23:26:30.102Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://potofcode.com/2016/08/19/javascript-react-snippets/</loc>
+        <lastmod>2016-10-20T22:54:54.113Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://potofcode.com/2016/10/10/article-free-static-blog-with-hexo/</loc>
         <lastmod>2016-10-11T01:23:45.415Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -55,32 +79,8 @@
     </url>
 
     <url>
-        <loc>https://potofcode.com/2016/08/19/javascript-react-snippets/</loc>
-        <lastmod>2016-09-06T05:18:37.225Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://potofcode.com/2016/03/13/games-build-rust-server/</loc>
         <lastmod>2016-09-02T03:55:42.427Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://potofcode.com/2016/08/21/hello-world-npm/</loc>
-        <lastmod>2016-08-26T13:02:18.540Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://potofcode.com/2016/03/13/hello-world-node-js/</loc>
-        <lastmod>2016-08-24T00:46:54.683Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
