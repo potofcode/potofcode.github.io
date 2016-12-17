@@ -7,6 +7,22 @@
     </url>
 
     <url>
+        <loc>https://potofcode.com/2016/12/11/article-rest-api-design-best-practices/</loc>
+        <lastmod>2016-12-16T22:07:37.235Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://potofcode.com/2016/10/10/article-free-static-blog-with-hexo/</loc>
+        <lastmod>2016-12-15T22:21:41.100Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://potofcode.com/2016/08/21/hello-world-npm/</loc>
         <lastmod>2016-11-04T23:55:21.162Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -25,14 +41,6 @@
     <url>
         <loc>https://potofcode.com/2016/08/19/javascript-react-snippets/</loc>
         <lastmod>2016-10-20T22:54:54.113Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://potofcode.com/2016/10/10/article-free-static-blog-with-hexo/</loc>
-        <lastmod>2016-10-11T01:23:45.415Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 

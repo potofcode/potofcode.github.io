@@ -21,6 +21,12 @@ footer.footer {
   padding: 10px 0;
   margin-top: -100px;
 }
+a[name] {
+  display: block;
+  position: relative;
+  top: -50px;
+  visibility: hidden;
+}
 a:hover {
   color: #49bee4;
 }
