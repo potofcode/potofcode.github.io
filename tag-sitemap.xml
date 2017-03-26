@@ -2,27 +2,6 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>https://potofcode.com/tags/windows/</loc>
-        <lastmod>2016-08-21T20:56:02.060Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://potofcode.com/tags/linux/</loc>
-        <lastmod>2016-08-21T20:56:02.060Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://potofcode.com/tags/%D1%81%D1%80%D0%B5%D0%B4%D0%B0-%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B8/</loc>
-        <lastmod>2016-08-21T20:56:02.060Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://potofcode.com/tags/steam/</loc>
         <lastmod>2016-09-02T03:55:42.427Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -142,8 +121,36 @@
     </url>
 
     <url>
+        <loc>https://potofcode.com/tags/windows/</loc>
+        <lastmod>2017-02-11T17:57:11.612Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://potofcode.com/tags/linux/</loc>
+        <lastmod>2017-02-11T17:57:11.612Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://potofcode.com/tags/%D1%81%D1%80%D0%B5%D0%B4%D0%B0-%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B8/</loc>
+        <lastmod>2017-02-11T17:57:11.612Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://potofcode.com/tags/rest-api/</loc>
-        <lastmod>2016-12-21T00:34:44.660Z</lastmod>
+        <lastmod>2017-03-24T02:42:43.605Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://potofcode.com/tags/usa/</loc>
+        <lastmod>2017-03-25T23:23:08.660Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

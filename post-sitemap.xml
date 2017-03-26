@@ -7,8 +7,24 @@
     </url>
 
     <url>
+        <loc>https://potofcode.com/2017/03/23/travel-usa-first-year-impression/</loc>
+        <lastmod>2017-03-25T23:23:08.660Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://potofcode.com/2016/12/11/article-rest-api-design-best-practices/</loc>
-        <lastmod>2016-12-21T00:34:44.660Z</lastmod>
+        <lastmod>2017-03-24T02:42:43.605Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://potofcode.com/2016/03/12/article-build-environment-p1/</loc>
+        <lastmod>2017-02-11T17:57:11.612Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -89,14 +105,6 @@
     <url>
         <loc>https://potofcode.com/2016/03/13/games-build-rust-server/</loc>
         <lastmod>2016-09-02T03:55:42.427Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://potofcode.com/2016/03/12/article-build-environment-p1/</loc>
-        <lastmod>2016-08-21T20:56:02.060Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 

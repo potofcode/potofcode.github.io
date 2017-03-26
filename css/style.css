@@ -197,62 +197,40 @@ pre {
 .post-share > li {
   display: inline;
 }
-@font-face {
-  font-family: 'socicon';
-  src: url("../fonts/socicon.eot");
-  src: url("../fonts/socicon.eot?#iefix") format('embedded-opentype'), url("../fonts/socicon-webfont.woff") format('woff'), url("../fonts/socicon-webfont.woff2") format('woff2'), url("../fonts/socicon-webfont.ttf") format('truetype'), url("../fonts/socicon-webfont.svg#sociconregular") format('svg');
-  font-weight: normal;
-  font-style: normal;
-  text-transform: initial;
+.post-share .socicon {
+  color: #fff !important;
 }
-.socicon {
-  font-family: 'socicon' !important;
-  -webkit-font-smoothing: antialiased;
-  color: #fff;
-  padding: 5px 10px;
-  margin: 1px 1px;
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -ms-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-  font-size: 20px;
+.post-share .socicon:hover {
+  color: #fff !important;
 }
-.socicon:hover {
-  color: #fff;
+.post-share .socicon:focus {
+  color: #fff !important;
 }
-.socicon:focus {
-  color: #fff;
-}
-.socicon-twitter {
+.post-share .socicon-twitter {
   background: #4da7de !important;
 }
-.socicon-facebook {
+.post-share .socicon-facebook {
   background: #3e5b98 !important;
 }
-.socicon-google {
+.post-share .socicon-google {
   background: #d93e2d !important;
 }
-.socicon-vkontakte {
+.post-share .socicon-vkontakte {
   background: #5a7fa6 !important;
 }
-.socicon-github {
-  color: #fff !important;
+.post-share .socicon-github {
   background: #000 !important;
 }
-.socicon-steam {
-  color: #fff !important;
+.post-share .socicon-steam {
   background: #171a21 !important;
 }
-.socicon-microsoft {
-  color: #fff !important;
+.post-share .socicon-microsoft {
   background: #00bdf6 !important;
 }
-.socicon-linkedin {
-  color: #fff !important;
+.post-share .socicon-linkedin {
   background: #3371b7 !important;
 }
-.socicon-mail {
-  color: #fff !important;
+.post-share .socicon-mail {
   background: #ffd600 !important;
 }
 .footer-column {
