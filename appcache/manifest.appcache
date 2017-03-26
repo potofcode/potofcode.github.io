@@ -1,11 +1,8 @@
 CACHE MANIFEST
-#ver:12/18/2016, 4:09:47 PM
+#ver:03/25/2017, 4:09:47 PM
 #plugin:4.5.3
 
 CACHE:
-index.html
-/js/main.js
-/css/style.css
 /vendor/bootstrap/css/bootstrap.min.css
 /vendor/bootstrap/css/bootstrap.min.css.map
 /vendor/bootstrap/css/bootstrap.yeti.min.css
@@ -16,14 +13,6 @@ index.html
 /vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2
 /vendor/bootstrap/js/bootstrap.min.js
 /vendor/bootstrap/js/jquery.min.js
-/vendor/font-awesome/css/font-awesome.css
-/vendor/font-awesome/css/font-awesome.min.css
-/vendor/font-awesome/fonts/fontawesome-webfont.eot
-/vendor/font-awesome/fonts/fontawesome-webfont.svg
-/vendor/font-awesome/fonts/fontawesome-webfont.ttf
-/vendor/font-awesome/fonts/fontawesome-webfont.woff
-/vendor/font-awesome/fonts/fontawesome-webfont.woff2
-/vendor/font-awesome/fonts/FontAwesome.otf
 /vendor/roboto/css/roboto.css
 /vendor/roboto/fonts/roboto-v15-cyrillic_latin-ext_cyrillic-ext_latin-700.eot
 /vendor/roboto/fonts/roboto-v15-cyrillic_latin-ext_cyrillic-ext_latin-700.svg
