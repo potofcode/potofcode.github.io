@@ -18,10 +18,3 @@ if ('serviceWorker' in navigator) {
     });
   });
 }
-
-if (document.getElementById('cachedpagelist') && 'caches' in window) {
-  const scr = document.createElement('script');
-  scr.src = '/js/offlinepage.js';
-  scr.async = 1;
-  document.head.appendChild(scr);
-}

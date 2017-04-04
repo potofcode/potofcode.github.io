@@ -60,7 +60,6 @@ const urlsToCache = [
   'vendor/socicon/fonts/Socicon.ttf',
   'vendor/socicon/fonts/Socicon.woff',
   'vendor/socicon/fonts/Socicon.woff2',
-  offlineURL,
 ];
 
 
