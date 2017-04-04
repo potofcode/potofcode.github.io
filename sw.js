@@ -74,6 +74,33 @@ self.addEventListener('install', function(event) {
   );
 });
 
+const iExt = ['png', 'jpg', 'jpeg', 'gif', 'webp', 'bmp'].map(f => '.' + f);
+
+function isImage(url) {
+  return iExt.reduce((ret, ext) => ret || url.endsWith(ext), false);
+}
+
+function offlineAsset(url) {
+  if (isImage(url)) {
+    // return image
+    return new Response(
+      '<svg role="img" viewbox="0 0 400 300" xmlns="http://www.w3.org/2000/svg"><title>offline</title><path d="M0 0h400v300H0z" fill="#eee"/><text x="200" y="150" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="50" fill="#ccc">offline</text></svg>',
+      { headers: {
+        'Content-Type': 'image/svg+xml',
+        'Cache-Control': 'no-store'
+      }}
+    );
+
+  }
+  else {
+
+    // return page
+    return caches.match(offlineURL);
+
+  }
+
+}
+
 self.addEventListener('fetch', function(event) {
   event.respondWith(
     caches.match(event.request)
@@ -93,7 +120,7 @@ self.addEventListener('fetch', function(event) {
           function(response) {
             // Check if we received a valid response
             if (!response || response.status !== 200 || response.type !== 'basic') {
-              return response;
+              return offlineAsset(event.request.url);
             }
 
             // IMPORTANT: Clone the response. A response is a stream
