@@ -1,4 +1,5 @@
 const CACHE_NAME = 'site-cache';
+const offlineURL = '/offline/';
 const urlsToCache = [
   '/',
   '/css/style.css',
@@ -59,6 +60,7 @@ const urlsToCache = [
   'vendor/socicon/fonts/Socicon.ttf',
   'vendor/socicon/fonts/Socicon.woff',
   'vendor/socicon/fonts/Socicon.woff2',
+  offlineURL,
 ];
 
 
