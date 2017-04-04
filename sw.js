@@ -119,7 +119,7 @@ self.addEventListener('fetch', function(event) {
           if (isImage(event.request.url)) {
             // return image
             return new Response(
-              '<svg role="img" viewbox="0 0 400 300" xmlns="http://www.w3.org/2000/svg"><title>offline</title><path d="M0 0h400v300H0z" fill="#eee"/><text x="200" y="150" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="50" fill="#ccc">offline</text></svg>',
+              '<svg role="img" viewbox="0 0 700 310" xmlns="http://www.w3.org/2000/svg"><title>Offline</title><path d="M0 0h700v310H0z" fill="#222"/><text x="350" y="150" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="50" fill="#ccc">Offline</text></svg>',
               { headers: {
                 'Content-Type': 'image/svg+xml',
                 'Cache-Control': 'no-store'
