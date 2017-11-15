@@ -37,6 +37,7 @@
 <url> <loc>https://potofcode.com/вояж/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://potofcode.com/игры/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://potofcode.com/404/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://potofcode.com/empty/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://potofcode.com/terms/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://potofcode.com/404.html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
