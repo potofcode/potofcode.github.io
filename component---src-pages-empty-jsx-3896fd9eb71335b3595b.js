@@ -1,2 +1,0 @@
-webpackJsonp([30080193908626],{238:function(e,t,u){"use strict";function n(e){return e&&e.__esModule?e:{default:e}}function l(){return i.default.createElement(r.default,{title:"204",description:"Страница пустая"},i.default.createElement("div",{style:{width:"100%",minHeight:2e3}}))}t.__esModule=!0,t.default=l;var d=u(1),i=n(d),a=u(30),r=n(a);e.exports=t.default}});
-//# sourceMappingURL=component---src-pages-empty-jsx-3896fd9eb71335b3595b.js.map
